@@ -1,5 +1,69 @@
 @import "reset.css";
 
-body {
+html {
   background-color: #0A2227;
+  overflow: hidden;
+}
+
+.branches, .fireflies {
+  position: absolute
+}
+
+/* iphone xs */
+@media screen and (max-width: 375px) {
+
+  .branches {
+    margin-left: -100vw;
+    width: 450vw;
+  }
+
+  .fireflies {
+    transform: rotate(90deg);
+    margin-left: -100vw;
+    width: 300vw;
+  }
+}
+
+/* iphone 8 plus */
+@media screen and (max-width: 414px) {
+
+  .branches {
+    margin-left: -100vw;
+    width: 400vw;
+  }
+
+  .fireflies {
+    transform: rotate(90deg);
+    margin-left: -100vw;
+    width: 300vw;
+  }
+}
+
+/* ipad mini 9.7" portrait */
+@media screen and (max-width: 768px) {
+
+  .branches {
+    margin-left: -100vw;
+    width: 250vw;
+  }
+
+  .fireflies {
+    transform: rotate(90deg);
+    margin-left: -100vw;
+    width: 200vw;
+  }
+}
+
+/* ipad mini 9.7" landscape */
+@media screen and (max-width: 1024px) {
+
+  .branches {
+    margin-left: -50vw;
+  }
+
+  .fireflies {
+    transform: rotate(90deg);
+    margin-left: -50vw;
+    width: 200vw;
+  }
 }
