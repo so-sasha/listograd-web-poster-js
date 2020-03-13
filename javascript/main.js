@@ -50,7 +50,6 @@ function randomValues() {
     scale: 3,
   })
 }
-
 randomValues()
 
 function changeColor() {
@@ -63,9 +62,31 @@ function changeColor() {
     direction: 'alternate',
   })
 }
-// .add({ targets: '.fireflies_2',  background: '#9954AB', '#BDDB96' }, 0)
-
 changeColor()
+
+// let gettingThroughThickets = document.querySelector('branches')
+
+// document.querySelector('.branches').onclick = function() {disappear()}
+//
+// function disappear() {
+//   document.querySelector('.branches').style.display = 'none';
+// }
+
+document.querySelector('.branch_disappear').onclick = () =>{document.querySelector('.branch_disappear').style.display = 'none'}
+
+document.querySelector('.branch_disappear_2').onclick = () =>{document.querySelector('.branch_disappear_2').style.display = 'none'}
+
+document.querySelector('.branch_disappear_3').onclick = () =>{document.querySelector('.branch_disappear_3').style.display = 'none'}
+
+document.querySelector('.branch_disappear_4').onclick = () =>{document.querySelector('.branch_disappear_4').style.display = 'none'}
+
+document.querySelector('.branch_disappear_5').onclick = () =>{document.querySelector('.branch_disappear_5').style.display = 'none'}
+
+document.querySelector('.branch_disappear_6').onclick = () =>{document.querySelector('.branch_disappear_6').style.display = 'none'}
+
+document.querySelector('.branch_disappear_7').onclick = () =>{document.querySelector('.branch_disappear_7').style.display = 'none'}
+
+document.querySelector('.branch_disappear_8').onclick = () =>{document.querySelector('.branch_disappear_8').style.display = 'none'}
 
 // let fireflyFlying01 = document.getElementById('firefly')
 //
