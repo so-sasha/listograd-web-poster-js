@@ -52,7 +52,7 @@ function randomValues() {
 }
 randomValues()
 
-function changeColor() {
+function changeFirefliesColor() {
   anime({
     targets: '.fireflies',
     backgroundColor: ['#BDDB96', '#9954AB'],
@@ -62,7 +62,7 @@ function changeColor() {
     direction: 'alternate',
   })
 }
-changeColor()
+changeFirefliesColor()
 
 document.getElementById('#branch').onclick = () =>{document.getElementById('#branch').style.display = 'none'}
 
@@ -79,6 +79,28 @@ document.getElementById('#branch_6').onclick = () =>{document.getElementById('#b
 document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.display = 'none'}
 
 document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.display = 'none'}
+
+
+document.querySelector('.fireflies').onmouseenter = function(event) {
+  event.target.style.transform = `translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)`
+}
+
+
+// document.getElementById('#branch').onclick = () =>{document.getElementById('#branch').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_2').onclick = () =>{document.getElementById('#branch_2').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_3').onclick = () =>{document.getElementById('#branch_3').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_4').onclick = () =>{document.getElementById('#branch_4').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_5').onclick = () =>{document.getElementById('#branch_5').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_6').onclick = () =>{document.getElementById('#branch_6').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.backgroundColor = '#9954AB'}
+//
+// document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.backgroundColor = '#9954AB'}
 
 
 
