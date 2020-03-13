@@ -14,12 +14,12 @@ html {
 
   .branches {
     margin-left: -30vw;
-    width: 120vw;
+    width: 170vw;
   }
 
   .fireflies {
     margin-left: -50vw;
-    width: 150vw;
+    width: 190vw;
   }
 }
 
@@ -50,6 +50,22 @@ html {
     width: 140vw;
   }
 }
+
+/* macbook air */
+@media screen and (max-width: 1366px) {
+
+  .branches {
+    margin-left: -20vw;
+    width: 200vw;
+  }
+
+  .fireflies {
+    margin-left: -50vw;
+    width: 200vw;
+  }
+}
+
+
 
 /* macbook pro 13 */
 @media screen and (max-width: 1280px) {
