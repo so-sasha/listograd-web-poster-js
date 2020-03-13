@@ -64,29 +64,21 @@ function changeColor() {
 }
 changeColor()
 
-// let gettingThroughThickets = document.querySelector('branches')
+document.getElementById('#branch').onclick = () =>{document.getElementById('#branch').style.display = 'none'}
 
-// document.querySelector('.branches').onclick = function() {disappear()}
-//
-// function disappear() {
-//   document.querySelector('.branches').style.display = 'none';
-// }
+document.getElementById('#branch_2').onclick = () =>{document.getElementById('#branch_2').style.display = 'none'}
 
-document.querySelector('.branch_disappear').onclick = () =>{document.querySelector('.branch_disappear').style.display = 'none'}
+document.getElementById('#branch_3').onclick = () =>{document.getElementById('#branch_3').style.display = 'none'}
 
-document.querySelector('.branch_disappear_2').onclick = () =>{document.querySelector('.branch_disappear_2').style.display = 'none'}
+document.getElementById('#branch_4').onclick = () =>{document.getElementById('#branch_4').style.display = 'none'}
 
-document.querySelector('.branch_disappear_3').onclick = () =>{document.querySelector('.branch_disappear_3').style.display = 'none'}
+document.getElementById('#branch_5').onclick = () =>{document.getElementById('#branch_5').style.display = 'none'}
 
-document.querySelector('.branch_disappear_4').onclick = () =>{document.querySelector('.branch_disappear_4').style.display = 'none'}
+document.getElementById('#branch_6').onclick = () =>{document.getElementById('#branch_6').style.display = 'none'}
 
-document.querySelector('.branch_disappear_5').onclick = () =>{document.querySelector('.branch_disappear_5').style.display = 'none'}
+document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.display = 'none'}
 
-document.querySelector('.branch_disappear_6').onclick = () =>{document.querySelector('.branch_disappear_6').style.display = 'none'}
-
-document.querySelector('.branch_disappear_7').onclick = () =>{document.querySelector('.branch_disappear_7').style.display = 'none'}
-
-document.querySelector('.branch_disappear_8').onclick = () =>{document.querySelector('.branch_disappear_8').style.display = 'none'}
+document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.display = 'none'}
 
 // let fireflyFlying01 = document.getElementById('firefly')
 //
