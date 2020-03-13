@@ -16,15 +16,11 @@ body {
 
 .branches {
   margin-left: -150vw;
-  /* width: 100%;
-  height: 100vh; */
 }
 
 .fireflies {
   margin-left: -150vw;
   transform: rotate(90deg);
-  /* width: 100%;
-  height: 100vh; */
 }
 
 /* iphone xs */
@@ -32,16 +28,11 @@ body {
 
   .branches {
     margin-left: -170vw;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -150vw;
     height: 100vh;
-    /* transform: rotate(90deg); */
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -50,16 +41,11 @@ body {
 
   .branches {
     margin-left: -180vw;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -150vw;
     height: 100vh;
-    /* transform: rotate(90deg);
-    width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -68,14 +54,10 @@ body {
 
   .branches {
     margin-left: -10vw;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -70vw;
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -85,16 +67,12 @@ body {
   .branches {
     margin-left: -10vw;
     width: 150%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: 0vw;
     transform: rotate(0deg);
     width: 150%;
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -104,16 +82,12 @@ body {
   .branches {
     margin-left: 0vw;
     width: 120%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: 0vw;
     width: 120%;
     transform: rotate(0deg);
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -123,16 +97,12 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -10vw;
     width: 120%;
     transform: rotate(0deg);
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -142,16 +112,12 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -10vw;
     width: 120%;
     transform: rotate(0deg);
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -162,16 +128,12 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -10vw;
     width: 120%;
     transform: rotate(0deg);
-    /* width: 100%;
-    height: 100vh; */
   }
 }
 
@@ -181,15 +143,11 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-    /* width: 100%;
-    height: 100vh; */
   }
 
   .fireflies {
     margin-left: -10vw;
     width: 120%;
     transform: rotate(0deg);
-    /* width: 100%;
-    height: 100vh; */
   }
 }
