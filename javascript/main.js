@@ -37,7 +37,7 @@
 
 function randomValues() {
   anime({
-    targets: '.fireflies_2',
+    targets: '.fireflies',
     translateX: function() {
       return anime.random(0, 1366);
     },
@@ -54,7 +54,7 @@ randomValues()
 
 function changeColor() {
   anime({
-    targets: '.fireflies_2',
+    targets: '.fireflies',
     backgroundColor: ['#BDDB96', '#9954AB'],
     duration: 10000,
     loop: true,
@@ -79,6 +79,12 @@ document.getElementById('#branch_6').onclick = () =>{document.getElementById('#b
 document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.display = 'none'}
 
 document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.display = 'none'}
+
+
+
+// $('.branches').click(function(){
+//     $('leaves_rustling')[0].play(); //  выборка нужного тега audio и запуск метода play()
+// });
 
 // let fireflyFlying01 = document.getElementById('firefly')
 //

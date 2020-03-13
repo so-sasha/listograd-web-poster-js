@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 
-.branches, .fireflies {
+.branches {
   position: absolute;
 }
 
@@ -19,11 +19,6 @@ body {
 }
 
 .fireflies {
-  margin-left: -150vw;
-  transform: rotate(90deg);
-}
-
-.fireflies_2 {
   position: absolute;
   border-radius: 50%;
   width: 40px;
@@ -33,25 +28,11 @@ body {
   filter: blur(0.5vw);
 }
 
-#firefly {
-  position: absolute;
-  border-radius: 50px;
-  width: 3.2vw;
-  height: 6vh;
-  background: #F5DA79;
-  z-index: -1;
-}
-
 /* iphone xs */
 @media screen and (max-width: 375px) {
 
   .branches {
     margin-left: -170vw;
-  }
-
-  .fireflies {
-    margin-left: -150vw;
-    height: 100vh;
   }
 }
 
@@ -61,11 +42,6 @@ body {
   .branches {
     margin-left: -180vw;
   }
-
-  .fireflies {
-    margin-left: -150vw;
-    height: 100vh;
-  }
 }
 
 /* ipad mini 9.7" portrait */
@@ -74,10 +50,6 @@ body {
   .branches {
     margin-left: -10vw;
   }
-
-  .fireflies {
-    margin-left: -70vw;
-  }
 }
 
 /* ipad mini 9.7" landscape */
@@ -85,12 +57,6 @@ body {
 
   .branches {
     margin-left: -10vw;
-    width: 150%;
-  }
-
-  .fireflies {
-    margin-left: 0vw;
-    transform: rotate(0deg);
     width: 150%;
   }
 }
@@ -102,12 +68,6 @@ body {
     margin-left: 0vw;
     width: 120%;
   }
-
-  .fireflies {
-    margin-left: 0vw;
-    width: 120%;
-    transform: rotate(0deg);
-  }
 }
 
 /* macbook air */
@@ -117,12 +77,6 @@ body {
     margin-left: -10vw;
     width: 120%;
   }
-
-  .fireflies {
-    margin-left: -10vw;
-    width: 120%;
-    transform: rotate(0deg);
-  }
 }
 
 /* macbook pro 15 */
@@ -131,12 +85,6 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-  }
-
-  .fireflies {
-    margin-left: -10vw;
-    width: 120%;
-    transform: rotate(0deg);
   }
 }
 
@@ -148,12 +96,6 @@ body {
     margin-left: -10vw;
     width: 120%;
   }
-
-  .fireflies {
-    margin-left: -10vw;
-    width: 120%;
-    transform: rotate(0deg);
-  }
 }
 
 /* imac 21.6 */
@@ -162,11 +104,5 @@ body {
   .branches {
     margin-left: -10vw;
     width: 120%;
-  }
-
-  .fireflies {
-    margin-left: -10vw;
-    width: 120%;
-    transform: rotate(0deg);
   }
 }
