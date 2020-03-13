@@ -25,9 +25,9 @@ body {
 
 .fireflies_2 {
   position: absolute;
-  border-radius: 50px;
-  width: 3.2vw;
-  height: 6vh;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   background: #F5DA79;
   z-index: -1;
   filter: blur(0.5vw);

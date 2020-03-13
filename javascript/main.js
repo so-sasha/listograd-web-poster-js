@@ -39,18 +39,46 @@ function randomValues() {
   anime({
     targets: '.fireflies_2',
     translateX: function() {
-      return anime.random(0, 1680);
+      return anime.random(0, 1366);
     },
     translateY: function() {
-      return anime.random(0, 1680);
+      return anime.random(0, 768);
     },
     easing: 'easeInOutQuad',
     duration: 5000,
     complete: randomValues,
+    scale: 3,
   })
 }
 
 randomValues()
+
+function changeColorToGreen() {
+  anime({
+    targets: '.fireflies_2',
+    backgroundColor: '#BDDB96',
+    duration: 5000,
+    loop: true,
+    easing: 'easeInOutQuad',
+    direction: 'alternate',
+  })
+}
+// .add({ targets: '.fireflies_2',  background: '#9954AB', '#BDDB96' }, 0)
+
+changeColorToGreen()
+
+function changeColorToPink() {
+  anime({
+    targets: '.fireflies_2',
+    backgroundColor: '#9954AB',
+    duration: 5000,
+    loop: true,
+    easing: 'easeInOutQuad',
+    direction: 'alternate',
+  })
+}
+
+changeColorToPink()
 
 // let fireflyFlying01 = document.getElementById('firefly')
 //
@@ -62,4 +90,3 @@ randomValues()
 //   direction: 'alternate',
 //   loop: true
 // })
-// .add({ targets: '.fireflies_2',  background: '#8FB75B' }, 0)
