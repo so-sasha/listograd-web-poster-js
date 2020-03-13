@@ -23,6 +23,25 @@ body {
   transform: rotate(90deg);
 }
 
+.fireflies_2 {
+  position: absolute;
+  border-radius: 50px;
+  width: 3.2vw;
+  height: 6vh;
+  background: #F5DA79;
+  z-index: -1;
+  filter: blur(0.5vw);
+}
+
+#firefly {
+  position: absolute;
+  border-radius: 50px;
+  width: 3.2vw;
+  height: 6vh;
+  background: #F5DA79;
+  z-index: -1;
+}
+
 /* iphone xs */
 @media screen and (max-width: 375px) {
 
