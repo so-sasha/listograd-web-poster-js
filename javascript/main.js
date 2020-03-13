@@ -39,10 +39,13 @@ function randomValues() {
   anime({
     targets: '.fireflies_2',
     translateX: function() {
-      return anime.random(0, 1920);
+      return anime.random(0, 1680);
+    },
+    translateY: function() {
+      return anime.random(0, 1680);
     },
     easing: 'easeInOutQuad',
-    duration: 750,
+    duration: 5000,
     complete: randomValues,
   })
 }
