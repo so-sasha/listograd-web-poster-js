@@ -53,11 +53,11 @@ function randomValues() {
 
 randomValues()
 
-function changeColorToGreen() {
+function changeColor() {
   anime({
     targets: '.fireflies_2',
-    backgroundColor: '#BDDB96',
-    duration: 5000,
+    backgroundColor: ['#BDDB96', '#9954AB'],
+    duration: 10000,
     loop: true,
     easing: 'easeInOutQuad',
     direction: 'alternate',
@@ -65,20 +65,7 @@ function changeColorToGreen() {
 }
 // .add({ targets: '.fireflies_2',  background: '#9954AB', '#BDDB96' }, 0)
 
-changeColorToGreen()
-
-function changeColorToPink() {
-  anime({
-    targets: '.fireflies_2',
-    backgroundColor: '#9954AB',
-    duration: 5000,
-    loop: true,
-    easing: 'easeInOutQuad',
-    direction: 'alternate',
-  })
-}
-
-changeColorToPink()
+changeColor()
 
 // let fireflyFlying01 = document.getElementById('firefly')
 //
