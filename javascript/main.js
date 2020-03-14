@@ -81,8 +81,17 @@ document.getElementById('#branch_7').onclick = () =>{document.getElementById('#b
 document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.display = 'none'}
 
 
-document.querySelector('.fireflies').onmouseenter = function(event) {
-  event.target.style.transform = `translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)`
+// if (document.getElementById('#branch_8').style.display == 'none') {
+//   document.querySelector('.test').style.display = 'block'
+// }
+
+// document.getElementById('branch_8').onclick = function() {
+//   document.getElementById('text').style.display = 'block'
+// }
+
+
+document.querySelector('.fireflies').onmouseenter = function() {
+  document.querySelector('.fireflies').style.transform = `translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)`
 }
 
 
