@@ -39,6 +39,10 @@ body {
   filter: blur(0.5vw);
 }
 
+.branches path:hover {
+  stroke: #9954AB;
+}
+
 /* iphone xs */
 @media screen and (max-width: 375px) {
 
