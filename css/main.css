@@ -14,8 +14,9 @@ body {
 }
 
 .text {
-  /* display: none; */
+  display: none;
   font-size: 96px;
+  line-height: 123px;
   text-align: left;
   justify-content: center;
 }

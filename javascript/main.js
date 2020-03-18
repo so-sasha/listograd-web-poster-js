@@ -35,81 +35,109 @@
 //   loop: true,
 // })
 
-function randomValues() {
-  anime({
-    targets: '.fireflies',
-    translateX: function() {
-      return anime.random(0, 1366);
-    },
-    translateY: function() {
-      return anime.random(0, 768);
-    },
-    easing: 'easeInOutQuad',
-    duration: 5000,
-    complete: randomValues,
-    scale: 3,
-  })
+// function randomValues() {
+//   anime({
+//     targets: '.fireflies',
+//     translateX: function() {
+//       return anime.random(0, 1366);
+//     },
+//     translateY: function() {
+//       return anime.random(0, 768);
+//     },
+//     easing: 'easeInOutQuad',
+//     duration: 5000,
+//     complete: randomValues,
+//     scale: 3,
+//   })
+// }
+// randomValues()
+//
+// function changeFirefliesColor() {
+//   anime({
+//     targets: '.fireflies',
+//     backgroundColor: ['#BDDB96', '#9954AB'],
+//     duration: 10000,
+//     loop: true,
+//     easing: 'easeInOutQuad',
+//     direction: 'alternate',
+//   })
+// }
+// changeFirefliesColor()
+
+document.getElementById('branch').onclick = e => {
+  e.target.style.display = 'none'
 }
-randomValues()
 
-function changeFirefliesColor() {
-  anime({
-    targets: '.fireflies',
-    backgroundColor: ['#BDDB96', '#9954AB'],
-    duration: 10000,
-    loop: true,
-    easing: 'easeInOutQuad',
-    direction: 'alternate',
-  })
+document.getElementById('branch_2').onclick = e => {
+  e.target.style.display = 'none'
 }
-changeFirefliesColor()
 
-document.getElementById('#branch').onclick = () =>{document.getElementById('#branch').style.display = 'none'}
+document.getElementById('branch_3').onclick = e => {
+  e.target.style.display = 'none'
+}
 
-document.getElementById('#branch_2').onclick = () =>{document.getElementById('#branch_2').style.display = 'none'}
+document.getElementById('branch_4').onclick = e => {
+  e.target.style.display = 'none'
+}
 
-document.getElementById('#branch_3').onclick = () =>{document.getElementById('#branch_3').style.display = 'none'}
+document.getElementById('branch_5').onclick = e => {
+  e.target.style.display = 'none'
+}
 
-document.getElementById('#branch_4').onclick = () =>{document.getElementById('#branch_4').style.display = 'none'}
+document.getElementById('branch_6').onclick = e => {
+  e.target.style.display = 'none'
+}
 
-document.getElementById('#branch_5').onclick = () =>{document.getElementById('#branch_5').style.display = 'none'}
+document.getElementById('branch_7').onclick = e => {
+  e.target.style.display = 'none'
+}
 
-document.getElementById('#branch_6').onclick = () =>{document.getElementById('#branch_6').style.display = 'none'}
-
-document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.display = 'none'}
-
-document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.display = 'none'}
+document.getElementById('branch_8').onclick = e => {
+  e.target.style.display = 'none'
+}
 
 
 // if (document.getElementById('#branch_8').style.display == 'none') {
 //   document.querySelector('.test').style.display = 'block'
 // }
 
-// document.getElementById('branch_8').onclick = function() {
-//   document.getElementById('text').style.display = 'block'
-// }
+document.getElementById('branch_8').onclick = function() {
+  document.getElementById('text').style.display = 'block'
+}
 
+document.getElementById('branch_7').onclick = function() {
+  document.getElementById('text').style.display = 'block'
+}
 
-document.querySelector('.fireflies').onmouseenter = function() {
-  document.querySelector('.fireflies').style.transform = `translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)`
+document.getElementById('branch_6').onclick = function() {
+  document.getElementById('text').style.display = 'block'
 }
 
 
-// document.getElementById('#branch').onclick = () =>{document.getElementById('#branch').style.backgroundColor = '#9954AB'}
+// document.querySelector('.fireflies').onmouseenter = function() {
+//   document.querySelector('.fireflies').style.transform = `translate(${anime.random(0,100)}vw,${anime.random(0,100)}vh)`
+// }
+
+particlesJS.load('particles-js', 'javascript/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+
+// document.getElementById('branch').onclick = () =>{document.getElementById('branch').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_2').onclick = () =>{document.getElementById('#branch_2').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_2').onclick = () =>{document.getElementById('branch_2').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_3').onclick = () =>{document.getElementById('#branch_3').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_3').onclick = () =>{document.getElementById('branch_3').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_4').onclick = () =>{document.getElementById('#branch_4').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_4').onclick = () =>{document.getElementById('branch_4').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_5').onclick = () =>{document.getElementById('#branch_5').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_5').onclick = () =>{document.getElementById('branch_5').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_6').onclick = () =>{document.getElementById('#branch_6').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_6').onclick = () =>{document.getElementById('branch_6').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_7').onclick = () =>{document.getElementById('#branch_7').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_7').onclick = () =>{document.getElementById('branch_7').style.backgroundColor = '#9954AB'}
 //
-// document.getElementById('#branch_8').onclick = () =>{document.getElementById('#branch_8').style.backgroundColor = '#9954AB'}
+// document.getElementById('branch_8').onclick = () =>{document.getElementById('branch_8').style.backgroundColor = '#9954AB'}
 
 
 
