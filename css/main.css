@@ -41,6 +41,7 @@ body {
 
 .branches path:hover {
   stroke: #9954AB;
+  stroke-width: 70px;
 }
 
 /* iphone xs */
