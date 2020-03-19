@@ -41,8 +41,24 @@ body {
 
 .branches path:hover {
   stroke: #9954AB;
-  stroke-width: 70px;
+  stroke-width: 3vw;
 }
+
+.branches:active {
+  display: none;
+}
+
+/* .test {
+  mask-image: url('../img/branches.svg');
+  width: 300px;
+  height: 300px;
+  display: block;
+  background-color: #7F7E3C;
+}
+
+.test:hover {
+  mask-image: url('../img/branches_pink.svg');
+} */
 
 /* iphone xs */
 @media screen and (max-width: 375px) {
