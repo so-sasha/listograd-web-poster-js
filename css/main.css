@@ -44,9 +44,13 @@ body {
   stroke-width: 3vw;
 }
 
-.branches:active {
+/* .branches:active {
   display: none;
 }
+
+.branches:visited {
+  display: none;
+} */
 
 /* .test {
   mask-image: url('../img/branches.svg');
