@@ -1,15 +1,3 @@
-// function changeFirefliesColor() {
-//   anime({
-//     targets: '.fireflies',
-//     backgroundColor: ['#BDDB96', '#9954AB'],
-//     duration: 10000,
-//     loop: true,
-//     easing: 'easeInOutQuad',
-//     direction: 'alternate',
-//   })
-// }
-// changeFirefliesColor()
-
 document.getElementById('branch').onclick = e => {
   e.target.style.display = 'none'
 }
@@ -42,10 +30,32 @@ document.getElementById('branch_8').onclick = e => {
   e.target.style.display = 'none'
 }
 
-document.getElementById('branch_9').onclick = e => {
-  e.target.style.display = 'none'
-}
-
 particlesJS.load('particles-js', 'javascript/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+// if (document.getElementById('branch').style.display === 'none') {
+//   document.getElementById('text').style.display = 'block'
+// }
+
+// while (document.getElementById('branch').style.display === 'none') {
+//   document.getElementById('text').style.display = 'block'
+// }
+//
+// while (document.getElementById('branch_8').style.display === 'none') {
+//   document.getElementById('text').style.display = 'block'
+// }
+
+// do {
+//   document.getElementById('text').style.display = 'block'
+// } while (document.getElementById('branch_8').style.display === 'none')
+//
+// do {
+//   document.getElementById('text').style.display = 'block'
+// } while (document.getElementById('branch').style.display === 'none')
+
+let soundElement = document.getElementById('audio')
+let elementFromHTML = document.getElementById('branch_8')
+elementFromHTML.onclick = function() {
+  soundElement.play()
+}
