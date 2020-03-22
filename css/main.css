@@ -1,94 +1,63 @@
 @import "reset.css";
 @import url(https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap);
 
-html {
-  height: 100%;
-}
+/*html {*/
+/*  height: 100%;*/
+/*}*/
 
 body {
   background-color: #0A2227;
   overflow: hidden;
-  height: 100%;
-  font-family: 'Lora', serif;
+  /*height: 100%;*/
   color: #8FB75B;
 }
 
 .text {
   display: none;
-  font-size: 96px;
-  line-height: 123px;
+  font-size: 64px;
+  line-height: 82px;
   text-align: left;
-  justify-content: center;
+  font-family: 'Lora', serif;
 }
 
 .branches {
   position: absolute;
+  height: 100%;
+  width: 150%;
   margin-left: -150vw;
 }
 
-.fireflies {
-  position: absolute;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background: #F5DA79;
-  z-index: -1;
-  filter: blur(0.5vw);
-}
+/*.fireflies {*/
+/*  position: absolute;*/
+/*  border-radius: 50%;*/
+/*  width: 40px;*/
+/*  height: 40px;*/
+/*  background: #F5DA79;*/
+/*  z-index: -1;*/
+/*  filter: blur(0.5vw);*/
+/*}*/
 
 .branches path:hover {
   stroke: #9954AB;
   stroke-width: 2vw;
 }
 
-/* iphone xs */
-@media screen and (max-width: 375px) {
+ /* imac 21.6 */
+@media screen and (max-width: 1920px) {
 
   .branches {
-    margin-left: -170vw;
-  }
-}
-
-/* iphone 8 plus */
-@media screen and (max-width: 414px) {
-
-  .branches {
-    margin-left: -180vw;
-  }
-}
-
-/* ipad mini 9.7" portrait */
-@media screen and (max-width: 768px) {
-
-  .branches {
-    margin-left: -10vw;
-  }
-}
-
-/* ipad mini 9.7" landscape */
-@media screen and (max-width: 1024px) {
-
-  .branches {
-    margin-left: -10vw;
-    width: 150%;
-  }
-}
-
-/* macbook pro 13 */
-@media screen and (max-width: 1280px) {
-
-  .branches {
-    margin-left: 0vw;
     width: 120%;
+    margin-top: -2vw;
+    margin-left: -10vw;
   }
 }
 
-/* macbook air */
-@media screen and (max-width: 1366px) {
+/* macbook pro 15 custom */
+@media screen and (max-width: 1680px) {
 
   .branches {
-    margin-left: -10vw;
     width: 120%;
+    margin-left: -10vw;
   }
 }
 
@@ -96,26 +65,65 @@ body {
 @media screen and (max-width: 1440px) {
 
   .branches {
+    width: 120%;
     margin-left: -10vw;
+  }
+}
+
+/* macbook air */
+@media screen and (max-width: 1366px) {
+
+  .branches {
+    width: 120%;
+    margin-left: -10vw;
+  }
+}
+
+/* macbook pro 13 */
+@media screen and (max-width: 1280px) {
+
+  .branches {
     width: 120%;
   }
 }
 
-
-/* macbook pro 15 custom */
-@media screen and (max-width: 1680px) {
-
+/* ipad mini 9.7" landscape */
+@media screen and (max-width: 1024px) {
   .branches {
+    width: 150%;
+    margin-top: -2vw;
     margin-left: -10vw;
-    width: 120%;
   }
 }
 
-/* imac 21.6 */
-@media screen and (max-width: 1920px) {
-
+/* ipad mini 9.7" portrait */
+@media screen and (max-width: 768px) {
   .branches {
-    margin-left: -10vw;
-    width: 120%;
+    width: 250%;
+    margin-left: -25vw;
+  }
+}
+
+/* iphone 8 plus */
+@media screen and (max-width: 414px) {
+  .branches {
+    width: 425%;
+    margin-left: -120vw;
+  }
+}
+
+/* iphone xs */
+@media screen and (max-width: 375px) {
+  .branches {
+    width: 425%;
+    margin-left: -120vw;
+  }
+}
+
+/* iphone se */
+@media screen and (max-width: 320px) {
+  .branches {
+    width: 350%;
+    margin-left: -90vw;
   }
 }
