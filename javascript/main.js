@@ -34,22 +34,6 @@ particlesJS.load('particles-js', 'javascript/particles.json', function () {
   console.log('callback - particles.js config loaded');
 });
 
-// while (document.getElementById('branch').style.display === 'none') {
-//   document.getElementById('text').style.display = 'block'
-// }
-//
-// while (document.getElementById('branch_8').style.display === 'none') {
-//   document.getElementById('text').style.display = 'block'
-// }
-
-// do {
-//   document.getElementById('text').style.display = 'block'
-// } while (document.getElementById('branch_8').style.display === 'none')
-//
-// do {
-//   document.getElementById('text').style.display = 'block'
-// } while (document.getElementById('branch').style.display === 'none')
-
 let soundElement = document.getElementById('audio')
 let rustlingBranch_8 = document.getElementById('branch_8')
 rustlingBranch_8.onclick = function() {
@@ -72,3 +56,7 @@ rustlingBranch_2.onclick = function() {
 if (document.getElementById('branch').style.display === 'none') {
   document.getElementById('text').style.display = 'block';
 }
+
+// while (document.getElementById('branch').style.display === 'none') {
+//   document.getElementById('text').style.display = 'block';
+// }
