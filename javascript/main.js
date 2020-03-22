@@ -34,10 +34,6 @@ particlesJS.load('particles-js', 'javascript/particles.json', function () {
   console.log('callback - particles.js config loaded');
 });
 
-// if (document.getElementById('branch').style.display === 'none') {
-//   document.getElementById('text').style.display = 'block'
-// }
-
 // while (document.getElementById('branch').style.display === 'none') {
 //   document.getElementById('text').style.display = 'block'
 // }
@@ -55,20 +51,24 @@ particlesJS.load('particles-js', 'javascript/particles.json', function () {
 // } while (document.getElementById('branch').style.display === 'none')
 
 let soundElement = document.getElementById('audio')
-let disappearingBranch_8 = document.getElementById('branch_8')
-disappearingBranch_8.onclick = function() {
+let rustlingBranch_8 = document.getElementById('branch_8')
+rustlingBranch_8.onclick = function() {
   soundElement.play();
-  disappearingBranch_8.style.display = 'none';
+  rustlingBranch_8.style.display = 'none';
 }
 
-let disappearingBranch_5 = document.getElementById('branch_5')
-disappearingBranch_5.onclick = function() {
+let rustlingBranch_5 = document.getElementById('branch_5')
+rustlingBranch_5.onclick = function() {
   soundElement.play();
-  disappearingBranch_5.style.display = 'none';
+  rustlingBranch_5.style.display = 'none';
 }
 
-let disappearingBranch_2 = document.getElementById('branch_2')
-disappearingBranch_2.onclick = function() {
+let rustlingBranch_2 = document.getElementById('branch_2')
+rustlingBranch_2.onclick = function() {
   soundElement.play();
-  disappearingBranch_2.style.display = 'none';
+  rustlingBranch_2.style.display = 'none';
+}
+
+if (document.getElementById('branch').style.display === 'none') {
+  document.getElementById('text').style.display = 'block';
 }
