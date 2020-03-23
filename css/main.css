@@ -18,6 +18,34 @@ body {
   color: #8FB75B;
 }
 
+#text:hover {
+  color: #9954AB;
+}
+
+#text_2:hover {
+  color: #79B9F5;
+}
+
+#text_3:hover {
+  color: #9954AB;
+}
+
+#text_4:hover {
+  color: #79B9F5;
+}
+
+#text_5:hover {
+  color: #9954AB;
+}
+
+#text_6:hover {
+  color: #79B9F5;
+}
+
+#text_7:hover {
+  color: #9954AB;
+}
+
 .branches {
   position: absolute;
   height: 100%;

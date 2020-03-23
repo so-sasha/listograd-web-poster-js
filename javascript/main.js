@@ -57,6 +57,7 @@ rustlingBranch_2.onclick = function() {
 document.getElementById('text').onclick = e => {
   e.target.style.display = 'none';
   document.getElementById('text_2').style.display = 'block';
+  // document.getElementById('text_2').style.color = '#9954AB';
 }
 
 document.getElementById('text_2').onclick = e => {
