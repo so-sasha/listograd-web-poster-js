@@ -9,12 +9,12 @@ body {
 }
 
 .text {
-  /*display: none;*/
-  position: center;
+  display: none;
+  position: absolute;
   font-size: 7vw;
-  line-height: 15vh;
+  line-height: 160%;
   text-align: center;
-  margin-top: 12vh;
+  margin: auto;
   font-family: 'Lora', serif;
   color: #8FB75B;
 }
