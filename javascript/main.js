@@ -89,44 +89,38 @@ document.getElementById('text_7').onclick = e => {
   document.getElementById('text').style.display = 'block';
 }
 
-// Сколько создавать карт
-const CARDS_NUMBER = 10
-// Название файлов с картами
-let cards = [
-  'img/1_card.svg',
-  'img/2_card.svg',
-  'img/3_card.svg',
-  'img/4_card.svg',
-  'img/5_card.svg',
-  'img/6_card.svg',
-  'img/7_card.svg',
-  'img/8_card.svg',
-  'img/9_card.svg',
-  'img/10_card.svg',
-  'img/11_card.svg',
-  'img/12_card.svg',
-  'img/13_card.svg'
-]
-// Функция, которая перемешивает массив с названиямии
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
-// Применяем функцию перемешивания
-cards = shuffle(cards)
-
-// Находим контейнер для карт
-// Он нам нужен, чтобы в ЦСС все выровнять
-let cardsContainer = document.getElementById('third__cards-container')
-// При помощи цикла создаем карты и вставляем внутрь контейнера
-for (let i = 0; i < CARDS_NUMBER; i++) {
-  let newCard = document.createElement('img')
-  newCard.src = `img/${cards[i]}`
-  newCard.classList.add('card')
-  newCard.onclick = function() {
-
-  }
-  cardsContainer.append(newCard)
-}
+// // Сколько создавать карт
+// const   TEXT_NUMBER = 7
+// // Название файлов с картами
+// let text = [
+//   document.getElementById('text'),
+//   document.getElementById('text_2'),
+//   document.getElementById('text_3'),
+//   document.getElementById('text_4'),
+//   document.getElementById('text_5'),
+//   document.getElementById('text_6'),
+//   document.getElementById('text_7')
+// ]
+// // Функция, которая перемешивает массив с названиямии
+// function shuffle(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+// }
+// // Применяем функцию перемешивания
+// text = shuffle(text)
+//
+// // Находим контейнер для карт
+// // Он нам нужен, чтобы в ЦСС все выровнять
+// let textContainer = document.getElementById('text_container')
+// // При помощи цикла создаем карты и вставляем внутрь контейнера
+// for (let i = 0; i < TEXT_NUMBER; i++) {
+//   let newText = document.createElement('newText')
+//   newText.src = `${text[i]}`
+//   newText.classList.add('card')
+//   newText.onclick = function() {
+//
+//   }
+//   textContainer.append(newText)
+// }

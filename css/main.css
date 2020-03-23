@@ -12,8 +12,8 @@ body {
   display: none;
   font-size: 7vw;
   line-height: 15vh;
-  text-align: left;
-  justify-content: center;
+  text-align: center;
+  margin-top: 12vh;
   font-family: 'Lora', serif;
   color: #8FB75B;
 }
