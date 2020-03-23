@@ -1,5 +1,6 @@
 document.getElementById('branch').onclick = e => {
-  e.target.style.display = 'none'
+  e.target.style.display = 'none';
+  document.getElementById('text').style.display = 'block';
 }
 
 // document.getElementById('branch_2').onclick = e => {
@@ -53,10 +54,12 @@ rustlingBranch_2.onclick = function() {
   rustlingBranch_2.style.display = 'none';
 }
 
-if (document.getElementById('branch').style.display === 'none') {
-  document.getElementById('text').style.display = 'block';
+document.getElementById('text').onclick = e => {
+  e.target.style.display = 'none';
+  document.getElementById('text_2').style.display = 'block';
 }
 
-// while (document.getElementById('branch').style.display === 'none') {
-//   document.getElementById('text').style.display = 'block';
-// }
+document.getElementById('text_2').onclick = e => {
+  e.target.style.display = 'none';
+  document.getElementById('text_3').style.display = 'block';
+}
