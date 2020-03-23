@@ -11,10 +11,11 @@ body {
 .text {
   display: none;
   position: absolute;
-  font-size: 7vw;
-  line-height: 160%;
+  top: 35%;
+  font-size: 5vw;
+  line-height: 140%;
   text-align: center;
-  margin: 50% -50% 50% -50$;
+  margin: auto;
   font-family: 'Lora', serif;
   color: #8FB75B;
 }
@@ -136,6 +137,10 @@ body {
 
 /* ipad mini 9.7" portrait */
 @media screen and (max-width: 768px) {
+  .text {
+    font-size: 7vw;
+    line-height: 140%;
+  }
   .branches {
     width: 250%;
     margin-left: -25vw;
@@ -144,6 +149,11 @@ body {
 
 /* iphone 8 plus */
 @media screen and (max-width: 414px) {
+  .text {
+    top: 30%;
+    font-size: 12vw;
+    line-height: 140%;
+  }
   .branches {
     width: 425%;
     margin-left: -120vw;
@@ -152,6 +162,11 @@ body {
 
 /* iphone xs */
 @media screen and (max-width: 375px) {
+  .text {
+    top: 30%;
+    font-size: 12vw;
+    line-height: 140%;
+  }
   .branches {
     width: 425%;
     margin-left: -120vw;
