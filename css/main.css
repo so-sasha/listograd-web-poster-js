@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   height: 100%;
   background-size: auto;
-  cursor: url('../img/cursor.png'), default;
+  cursor: url('../img/cursor.png'), auto; !important;
 }
 
 .text {
@@ -78,16 +78,6 @@ body {
   left: 0;
   top: 0;
 }
-
-/*.fireflies {*/
-/*  position: absolute;*/
-/*  border-radius: 50%;*/
-/*  width: 40px;*/
-/*  height: 40px;*/
-/*  background: #F5DA79;*/
-/*  z-index: -1;*/
-/*  filter: blur(0.5vw);*/
-/*}*/
 
 .branches path:hover {
   stroke: #9954AB;
