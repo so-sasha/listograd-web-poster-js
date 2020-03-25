@@ -12,13 +12,29 @@ body {
 .text {
   display: none;
   position: absolute;
-  top: 35%;
   font-size: 5vw;
+  top: 35%;
   line-height: 140%;
   text-align: center;
   margin: auto;
   font-family: 'Lora', serif;
   color: #8FB75B;
+}
+
+#text {
+  left: 10%;
+}
+
+#text_2 {
+  left: 7%;
+}
+
+#text_3 {
+  left: 14%;
+}
+
+#text_7 {
+  left: 20%;
 }
 
 #text:hover {
