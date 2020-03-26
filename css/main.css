@@ -22,7 +22,7 @@ body {
 }
 
 #text {
-  left: 10%;
+  left: 12%;
 }
 
 #text_2 {
@@ -108,6 +108,7 @@ body {
     margin-top: -2vw;
     margin-left: -10vw;
   }
+
 }
 
 /* macbook pro 15 custom */
@@ -117,6 +118,7 @@ body {
     width: 120%;
     margin-left: -10vw;
   }
+
 }
 
 /* macbook pro 15 */
@@ -126,6 +128,7 @@ body {
     width: 120%;
     margin-left: -10vw;
   }
+
 }
 
 /* macbook air */
@@ -135,6 +138,7 @@ body {
     width: 120%;
     margin-left: -10vw;
   }
+
 }
 
 /* macbook pro 13 */
@@ -143,59 +147,142 @@ body {
   .branches {
     width: 120%;
   }
+
+  .text {
+    top: 40%;
+  }
+
 }
 
 /* ipad mini 9.7" landscape */
 @media screen and (max-width: 1024px) {
+
   .branches {
     width: 150%;
     margin-top: -2vw;
     margin-left: -10vw;
   }
+
+  .text {
+    top: 40%;
+  }
+
 }
 
 /* ipad mini 9.7" portrait */
 @media screen and (max-width: 768px) {
+
   .text {
     font-size: 7vw;
     line-height: 140%;
   }
+
   .branches {
     width: 250%;
     margin-left: -25vw;
   }
+
+  #text {
+    left: 0%;
+  }
+
+  #text_2 {
+    left: 0%;
+  }
+
+  #text_3 {
+    left: 0%;
+  }
+
+  #text_7 {
+    left: 8%;
+  }
+
 }
 
 /* iphone 8 plus */
 @media screen and (max-width: 414px) {
+
   .text {
     top: 30%;
     font-size: 12vw;
     line-height: 140%;
   }
+
   .branches {
     width: 425%;
     margin-left: -120vw;
+  }
+
+  #text {
+    left: 0%;
+  }
+
+  #text_2 {
+    left: 0%;
+  }
+
+  #text_3 {
+    left: 0%;
+  }
+
+  #text_7 {
+    left: 0%;
   }
 }
 
 /* iphone xs */
 @media screen and (max-width: 375px) {
+
   .text {
     top: 30%;
     font-size: 12vw;
     line-height: 140%;
   }
+
   .branches {
     width: 425%;
     margin-left: -120vw;
+  }
+
+  #text {
+    left: 0%;
+  }
+
+  #text_2 {
+    left: 0%;
+  }
+
+  #text_3 {
+    left: 0%;
+  }
+
+  #text_7 {
+    left: 0%;
   }
 }
 
 /* iphone se */
 @media screen and (max-width: 320px) {
+
   .branches {
     width: 350%;
     margin-left: -90vw;
+  }
+
+  #text {
+    left: 0%;
+  }
+
+  #text_2 {
+    left: 0%;
+  }
+
+  #text_3 {
+    left: 0%;
+  }
+
+  #text_7 {
+    left: 0%;
   }
 }
